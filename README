@@ -1,0 +1,20 @@
+/****************************************************************/
+/*        D2Q5 Fluctuating Lattice Boltzmann Simulation         */
+/*                      Diffusive System                        */
+/*            Kyle Strand:  kyle.t.strand@ndsu.edu              */
+/*               North Dakota State University                  */
+/*                     24 June 2016                          */
+/****************************************************************/
+
+   New lattice Boltzmann algorithm for fluctuating diffusion.
+
+   Requires Alexander Wagner's Graph Library.
+        https://www.ndsu.edu/pubweb/~carswagn/GUI/index.html
+
+   The algorithm will follow the following methodology:
+        1) Forward matrix transformation
+        2) Collision step - Noise added here
+        3) Backward matrix transformation
+        4) Streaming step
+
+   This project is under teh GNU General Public License. See LICENSE for more details.
