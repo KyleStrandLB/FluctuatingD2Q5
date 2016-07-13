@@ -33,7 +33,7 @@
 double f[5][xdim][ydim], n[xdim][ydim]; 
 double tau[5]={1,0.6,0.6,0.6,0.6};
 double n0[2]={120,120}, theta = 1./3.;
-int next = 0, Pause = 0, done = 0, repeat = 1, iterations;
+int next = 0, Pause = 1, done = 0, repeat = 1, iterations;
 
 //Haloing routine
 void Halo() {
