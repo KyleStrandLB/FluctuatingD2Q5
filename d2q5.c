@@ -3,7 +3,7 @@
 /*                      Diffusive System                        */
 /*            Kyle Strand:  kyle.t.strand@ndsu.edu              */
 /*               North Dakota State University                  */
-/*                     24 June 2016                          */
+/*                     14 July 2016                             */
 /****************************************************************/
 
 /* New lattice Boltzmann algorithm for fluctuating diffusion.
@@ -16,6 +16,8 @@
 	2) Collision step - Noise added here
 	3) Backward matrix transformation
 	4) Streaming step 
+
+  Future edits will be added as they are completed.
 */ 
 
 #include <stdlib.h>
